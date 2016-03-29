@@ -1,0 +1,45 @@
+# **Darwin Fin Identification Software**
+
+The Darwin folder structure in this repository is set up the same way that you will need your local installation to be.  
+
+### **References**
+* [Eckerd College - Department of Computer Science](http://darwin.eckerd.edu/)  
+
+### **Change Log**
+
+#### **Version 3.01**  
+
+*  Display correct fin image in Matching Window when sorting by any column.  
+*  Search match results for records that have already been compared against using record ID, not position.  We will not attempt a match if the fin ID is found in the Results (meaning it was already processed, possibly be a previous category).
+
+#### **Version 3.00**  
+
+Users now have the ability to unlock and retrace saved FINZ files.  In previous version the Unlock feature was disabled.  
+
+The Main Window now uses a new display feature, which loads in half the time as the previous version.  Also, the addition and deletion of dolphin records will happen nearly instantaneously, without having to reload the entire database.  
+
+Another major change in the matching queue process.  Instead of having the single option of matching an unknown fin against the entire database, a user can select the option of matching against fins in the database that have any of the same damage categories as the unknown.  The speeds up the matching process by skipping unrelated damage categories.  
+
+Darwin has been modified to allow **multiple damage category selections**.  No longer will you be limited to just one damage category when documenting dolphin data.  This option will allow you to select as many damage categories as you like from your current schema.  
+
+**How will this affect the matching process?** 
+
+If three damage categories are selected for an unknown dolphin and a manual match is initiated, those three categories will be automatically selected for you on the matching dialog.  If you have saved the trace as a .finz file, you will be able to add that file to the queue for processing.  For users that select the option to match against unknown category only, records in the database will be searched if they have any of the same damage categories as the unknown.  
+
+Here is an example of records in our database (damage categories listed):  
+Upper  
+Apex | Upper  
+Lower  
+Peduncle | Freezebrand | Middle  
+Apex | Middle  
+
+If our unknown had Upper damage then 1 & 2 would be included in the search.  If the unknown had Apex and Upper, then 1, 2, & 5 would be included in the search.  
+
+This software modification was made in a way that would not require a change to the structure of the database.  The damage category selections are still being stored in the individuals.fkDamageCategoryID field.  
+
+**There is one caveat:**  
+The following sql command would have to be run on existing databases in order to update the fkDamageCategoryID values for use with the new software.  
+
+*update individuals set fkDamageCategoryID = 2<<(fkDamageCategoryID-1)*  
+
+If you would like us to update your database, please feel free to email nccos.app.support@noaa.gov for assistance.  
