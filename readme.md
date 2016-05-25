@@ -7,6 +7,11 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.02**  
+
+*  Fixed Match Window - contours were not being displayed correctly on record selection.  
+*  Opening Match dialog no longer requires file to be save as a .finz.  
+
 #### **Version 3.01**  
 
 *  Display correct fin image in Matching Window when sorting by any column.  
