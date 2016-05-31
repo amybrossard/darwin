@@ -7,6 +7,11 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.03**
+
+*  Add sighting date to Match Results window.
+*  Removed Match Results debug information from terminal window when viewing match results.
+
 #### **Version 3.02**  
 
 *  Fixed Match Window - contours were not being displayed correctly on record selection.  
