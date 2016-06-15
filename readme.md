@@ -7,6 +7,10 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.04**
+
+*  Set Match Results window and Main Window scroll position so that currently selected record is visible when a user clicks on a column heading to sort records.  
+
 #### **Version 3.03**
 
 *  Add sighting date to Match Results window.
