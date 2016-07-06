@@ -7,6 +7,11 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.06**
+
+*  Trace files (.finz) can now be unlocked and a user has the ability to move feature point locations.  In addition, a user may make modifications to the existing trace contour using any of the trace feature options such as erase feature, chop feature, add points, and move points, without having to delete the existing trace contour.  
+*  If a user chooses to Export Fin (*.finz) from the main menu, the selected record in the Main Window will be automatically selected in the Export Window record listing. 
+
 #### **Version 3.05**
 
 *  Toggling Hide IDs / Show IDs on the Match Results window will maintain the currently selected record and scroll position without having to reload the entire results.  
