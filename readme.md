@@ -7,6 +7,10 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.07**
+
+*  Fixed sorting issue in main window that was causing Darwin to crash.  This occurred when a user selected a column heading and attempt to move to previous or next record.  
+
 #### **Version 3.06**
 
 *  Trace files (.finz) can now be unlocked and a user has the ability to move feature point locations.  In addition, a user may make modifications to the existing trace contour using any of the trace feature options such as erase feature, chop feature, add points, and move points, without having to delete the existing trace contour.  
