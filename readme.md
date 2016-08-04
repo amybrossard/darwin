@@ -10,6 +10,7 @@ The Darwin folder structure in this repository is set up the same way that you w
 #### **Version 3.07**
 
 *  Fixed sorting issue in main window that was causing Darwin to crash.  This occurred when a user selected a column heading and attempt to move to previous or next record.  
+*  When unlocking trace files and retracing them, compensate for contours with less than 150 points in them when detecting the leading edge.  
 
 #### **Version 3.06**
 
