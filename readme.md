@@ -7,6 +7,10 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.08**
+
+*  When exporting data to text file, only header row was returned. Issue corrected.   
+
 #### **Version 3.07**
 
 *  Fixed sorting issue in main window that was causing Darwin to crash.  This occurred when a user selected a column heading and attempt to move to previous or next record.  
