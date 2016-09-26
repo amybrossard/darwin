@@ -7,6 +7,12 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.09**
+
+*  Fixed issue relating to similar damage category names. Categories such as "Apex" and "Marginal Apex" are now valied.
+*  Fixed issue with last damage category being selected and not displayed or highlighted in MainWindow, ModifyWindow, and TraceWindow.  
+*  Fixed crash after modifying record, then attempting to modify again.   
+
 #### **Version 3.08**
 
 *  When exporting data to text file, only header row was returned. Issue corrected.   
