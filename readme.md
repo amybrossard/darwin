@@ -7,9 +7,13 @@ The Darwin folder structure in this repository is set up the same way that you w
 
 ### **Change Log**
 
+#### **Version 3.10**
+
+*  Skip records in the match results file that are no longer in the database.  
+
 #### **Version 3.09**
 
-*  Fixed issue relating to similar damage category names. Categories such as "Apex" and "Marginal Apex" are now valied.
+*  Fixed issue relating to the use of similar damage category names. Categories such as "Apex" and "Marginal Apex" are now valid.
 *  Fixed issue with last damage category being selected and not displayed or highlighted in MainWindow, ModifyWindow, and TraceWindow.  
 *  Fixed crash after modifying record, then attempting to modify again.   
 
