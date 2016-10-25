@@ -2,6 +2,20 @@
 
 The Darwin folder structure in this repository is set up the same way that you will need your local installation to be.  
 
+We recommend cloning the Darwin_Release repository to your local machine.  Start by creating a folder called C:\Darwin_working  
+
+You should be able to clone the entire Darwin repository to the C:\Darwin_working folder.  After you clone the repository, create a shortcut on your desktop that will point to the Darwin application.  The Target of your shortcut should be C:\Darwin_working\system\bin\darwin.exe  
+
+The Start In location should be C:\Darwin_working\system\bin
+
+For addition information on the use of Darwin, please refer to the document 18thBiennialWorkshop.ppt in the root of the repository.
+
+If you are going to have multiple users it is recommended that Darwin be installed on, and run from, each user's computer.  We also recommend  installing the entire Darwin folder structure on a network drive.  You can then create a new survey area (Database) on the network drive in a location similar to:  \\yournetwork\Darwin_working\darwinPhotoIdData\surveyAreas  
+
+Once Darwin in loaded and running, create a new schema with your specific damage categories.  Set the default schema to be the one you just created.  After that you can create a new database on the network drive under the surveyAreas folder as listed above.  This will create the database with the new schema and store it on the network drive.  At this point you should close Darwin so that the darwin.cfg file is saved properly in your local C:\Darwin_working\system  
+
+To ensure that all users are using the same schema, copy the newly created C:\Darwin_working\system\darwin.cfg to each installation of Darwin.  
+
 ### **References**
 * [Eckerd College - Department of Computer Science](http://darwin.eckerd.edu/)  
 
