@@ -21,6 +21,11 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.11**
+
+*  Denormalize unknown fin contour before matching process.  Significant improvement in match accuracy.
+*  Remove previously compared records from IndividualsbyDamage during matching to speed up process.
+
 #### **Version 3.10**
 
 *  Skip records in the match results file that are no longer in the database.  
