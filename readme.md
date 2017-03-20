@@ -21,9 +21,14 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.12**
+
+*  Fix application crash when returning to Matching Dialog from Match Results window.  
+
 #### **Version 3.11**
 
-*  Denormalize unknown fin contour before matching process.  Significant improvement in match accuracy.
+*  Scale unknown fin contour to 1 before matching process.  
+*  Significant improvement in match accuracy.
 *  Remove previously compared records from IndividualsbyDamage during matching to speed up process.
 
 #### **Version 3.10**
