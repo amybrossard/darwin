@@ -21,12 +21,17 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.13**
+
+*  Fix out of bounds error in float contour.  
+
 #### **Version 3.12**
 
 *  Fix application crash when returning to Matching Dialog from Match Results window.  
 
 #### **Version 3.11**
 
+*  **Match queue results created prior to version 3.11 are no longer valid and may cause Dawrin to crash if you attempt to open them.  Reprocessing of finz files through queue is required to generate a valid results file.**  
 *  Scale unknown fin contour to 1 before matching process.  
 *  Significant improvement in match accuracy.
 *  Remove previously compared records from IndividualsbyDamage during matching to speed up process.
