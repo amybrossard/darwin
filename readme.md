@@ -21,6 +21,11 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.14**
+
+*  Reopen finz files to reset scaling and feature points when returning from Match Results Window.  
+*  Correct scaling when switching between Trace Mode and Find Feature Points.  
+
 #### **Version 3.13**
 
 *  Fix out of bounds error in float contour.  
