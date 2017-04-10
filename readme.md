@@ -21,6 +21,10 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.16**
+
+*  Revert to using original code to find tip position.  
+
 #### **Version 3.14**
 
 *  Reopen finz files to reset scaling and feature points when returning from Match Results Window.  
