@@ -21,6 +21,11 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.17**
+
+*  No longer scaling fin contour to 1 before matching process.  
+*  Get unknown fin's feature points before matching process.  
+
 #### **Version 3.16**
 
 *  Revert to using original code to find tip position.  
@@ -40,7 +45,7 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 #### **Version 3.11**
 
-*  **Match queue results created prior to version 3.11 are no longer valid and may cause Dawrin to crash if you attempt to open them.  Reprocessing of finz files through queue is required to generate a valid results file.**  
+*  **Match queue results created prior to version 3.11 are no longer valid and may cause Darwin to crash if you attempt to open them.  Reprocessing of finz files through queue is required to generate a valid results file.**  
 *  Scale unknown fin contour to 1 before matching process.  
 *  Significant improvement in match accuracy.
 *  Remove previously compared records from IndividualsbyDamage during matching to speed up process.
