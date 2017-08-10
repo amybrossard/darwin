@@ -21,6 +21,10 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.18**
+
+*  Account for out of bounds errors during match process.  
+
 #### **Version 3.17**
 
 *  No longer scaling fin contour to 1 before matching process.  
