@@ -21,6 +21,11 @@ To ensure that all users are using the same schema, copy the newly created C:\Da
 
 ### **Change Log**
 
+#### **Version 3.19**
+
+*  SQLite version 3.20.0.  
+*  Set sqlite3_busy_timeout.  This routine sets a busy handler that sleeps for a while when a table is locked.  
+
 #### **Version 3.18**
 
 *  Account for out of bounds errors during match process.  
